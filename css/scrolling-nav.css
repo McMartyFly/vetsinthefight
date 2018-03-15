@@ -20,15 +20,22 @@
 }
 .navbar .container > a img {
   margin-right: 15px;
+  height: 50px;
+  width: 50px;
 }
 
 header {
-  background-image: url("http://via.placeholder.com/1500/400");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
+  background: #051020;
   margin-top: 50px;
-  padding: 154px 0;
+}
+header img {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px 0 10px;
+  width: 100%;
+
 }
 
 section {
@@ -61,10 +68,18 @@ section .btn-primary:hover {
 }
 #services .bottom-img {
   float: left;
-  padding-right: 10px;
+  height: auto;
+  margin-right: 10px;
+  width: 300px;
 }
 #services .top-p {
   margin-bottom: 50px;
+}
+#about .excerpt {
+  border: 1px solid #000;
+  margin: 0 auto 15px;
+  padding: 20px;
+  width: 90%;
 }
 
 footer {
@@ -72,4 +87,11 @@ footer {
 }
 footer p span {
   color: #ffd700;
+}
+
+@media screen and ( max-width: 500px) {
+  #services .bottom-img {
+    margin-right: 0;
+    width: 100%;
+  }
 }
