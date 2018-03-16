@@ -61,18 +61,20 @@ section .btn-primary:hover {
   color: #1a1a1a;
   background: #e6c300;
 }
-
-#services .top-img {
+#vpac h2 {
+  padding: 0 50px 10px;
+}
+#vpac .top-img {
   float: right;
   padding-left: 10px;
 }
-#services .bottom-img {
-  float: left;
+#vpac .bottom-img {
+  float: right;
   height: auto;
-  margin-right: 10px;
-  width: 300px;
+  margin-left: 25px;
+  width: 50%;
 }
-#services .top-p {
+#vpac .top-p {
   margin-bottom: 50px;
 }
 #about .excerpt {
@@ -88,9 +90,13 @@ footer {
 footer p span {
   color: #ffd700;
 }
-
-@media screen and ( max-width: 500px) {
-  #services .bottom-img {
+@media screen and (max-width: 1000px) {
+  #vpac h2 {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  #vpac .bottom-img {
     margin-right: 0;
     width: 100%;
   }
