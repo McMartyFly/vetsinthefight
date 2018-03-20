@@ -103,15 +103,65 @@
         font-size: 1.25em;
         font-weight: 300;
       }
+      #about {
+        padding: 0 10px;
+      }
       #about .excerpt {
         border: 1px solid #000;
+        font-style: italic;
         margin: 0 auto 15px;
         padding: 20px;
         width: 90%;
       }
+      #about h2 {
+        text-align: center;
+      }
+      #about h2 span {
+        color: #ffd700;
+        text-shadow: 1px 1px #1a1a1a;
+      }
+      #about .lead.about-info {
+        background: #f8f9fa;
+        border-radius: 10px;
+        padding: 15px;
+      }
+      #about .lead.about-info span {
+        color: #002080;
+        font-weight: 600;
+      }
+      #about .red-rule,
+      #about .blue-rule {
+        background: #B52627;
+        border-radius: 50%;
+        height: 5px;
+        margin: 10px auto;
+        width: 50%;
+      }
+      #about .blue-rule {
+        background: #002080;
+      }
+      #about .dark-banner {
+        background: #1a1a1a;
+        border-radius: 30px;
+        color: #fff;
+        margin: 25px auto;
+        padding: 10px;
+        text-align: center;
+      }
+      #about .dark-banner span {
+        color: #ffd700;
+      }
+      #about .tri-img p {
+        text-align: center;
+      }
+      #about .tri-img p span {
+        color: #ffd700;
+        text-shadow: 1px 1px #1a1a1a;
+      }
 
       #vpac {
         background: #f8f9fa;
+        margin-top: 25px;
       }
 
       .btn-primary {
@@ -200,40 +250,61 @@
       <!-- ABOUT SECTION -->
       <div id="about-anchor"></div>
       <section id="about">
-        <h2>Welcome to the Veterans Patriot Action Conference (VPAC) &amp; Welcome all you Vets in the Fight &#174;</h2>
+        <h2>Welcome to the Veterans Patriot Action Conference (VPAC) &amp; Welcome all you<br><span>Vets in the Fight&#174;</span></h2>
         <p class="lead">
           The Veterans Patriot Action Conference is one of the younger combat veteran organizations on the block, incorporated in the
           Summer of 2015. We are a non-profit veteran organization under provisions of IRS 501 (c) 19.
         </p>
-        <p class="lead">
-          We believe that veterans represent a vast, and untapped, reservoir of values, ethos, mission-first outlook and personal honor;
-          attributes that ae sadly fading from the American culture. We believe that the military veteran is the final American institutional
+        <p class="lead about-info">
+          <span>We believe</span> that veterans represent a vast, and untapped, reservoir of values, ethos, mission-first outlook and personal honor;
+          attributes that ae sadly fading from the American culture.
+        </p>
+        <p class="lead about-info">
+          <span>We believe</span> that the military veteran is the final American institutional
           reservoir of these key values shaped and inculcated through the crucible of honorable service.
         </p>
-        <p class="lead">
-          We believe that veterans must stick together in a world, at least for the moment, that claims to approve of us and of our honorable
+        <p class="lead about-info">
+          <span>We believe</span> that veterans must stick together in a world, at least for the moment, that claims to approve of us and of our honorable
           service, a condition that can change rapidly, as those of us who served in Vietnam will vouch.
         </p>
-        <p class="lead">
-          We believe that the values of Duty, Honor, Country and Competence in the face of adversity are qualities that have become a rarity
+        <p class="lead about-info">
+          <span>We believe</span> that the values of Duty, Honor, Country and Competence in the face of adversity are qualities that have become a rarity
           in our society, yet, are ingredients indispensable to the sustainment of a viable republic.
         </p>
-        <p class="lead">
-          We believe that most veterans carry into civilian life, whether after three years or after thirty years of honorable service, a sense of
+        <p class="lead about-info">
+          <span>We believe</span> that most veterans carry into civilian life, whether after three years or after thirty years of honorable service, a sense of
           purpose summarized by their open-ended military oaths, which state in part...
         </p>
+        <div class="blue-rule"></div>
+        <div class="red-rule"></div>
         <p class="excerpt">
           &quot; I ... do solemnly swear (or affirm) that I will support and defend the Constitution of the United States
           against all enemies, foreign or domestic, that I will bear true faith and allegiance to the same; that I take
           this obligation freely, without any mental reservations or purpose of evasion ... So help me God.&quot;
         </p>
-        <p class="lead">
-          We know there are millions of honorably discharged veterans who continue to live by their military oaths in their everyday lives.
-          These we call ‘Vets in the Fight&#174;’, men and women who’s conduct and actions represent the values espoused in their oaths. Vets in
-          the Fight is also a concept aimed at giving substance to those special qualities in continuing service to our Nation.<br><br> Vets in the Fight
-          must: Vote ... they must serve in public office ... they must hold government accountable in adherence to the US Constitution, as
-          written. Vets in the Fight® are compelled to continue the ‘mission’ to defend that Constitution.
-        </p>
+        <div class="red-rule"></div>
+        <div class="blue-rule"></div>
+        <div class="dark-banner">We know there are millions of honorably discharged veterans who continue to live by their military oaths in their everyday lives.</div>
+        <div class="tri-img">
+          <amp-img src="../img/vet-with-children-amp.jpg" layout="responsive" width="300" height="150" alt="Veteran with children"><noscript><img src="../img/vet-with-children-amp.jpg" alt="Veteran with children"/></noscript></amp-img>
+          <p>
+            These we call <span>Vets in the Fight&#174;</span>, men and women who’s conduct and actions represent the values espoused in their oaths.
+          </p>
+        </div>
+        <div class="tri-img">
+          <amp-img src="../img/vet-in-service-amp.jpg" layout="responsive" width="300" height="150" alt="Veteran in service"><noscript><img src="../img/vet-in-service-amp.jpg" alt="Veteran in service"/></noscript></amp-img>
+          <p>
+            <span>Vets in the Fight&#174;</span> is also a concept aimed at giving substance to those special qualities in continuing service to our Nation.
+          </p>
+        </div>
+        <div class="tri-img">
+          <amp-img src="../img/vet-in-suit-amp.jpg" layout="responsive" width="300" height="150" alt="Veteran in suit"><noscript><img src="../img/vet-in-suit-amp.jpg" alt="Veteran in suit"/></noscript></amp-img>
+          <p>
+            <span>Vets in the Fight&#174;</span> must: Vote, they must serve in public office, they must hold government accountable in adherence to the US Constitution, as
+            written.
+          </p>
+        </div>
+        <div class="dark-banner"><span>Vets in the Fight&#174;</span> are compelled to continue the ‘mission’ to defend that Constitution</div>
         <a href="http://www.ideasenvy.com" class="btn btn-primary">Donate Now!</a>
       </section>
 
