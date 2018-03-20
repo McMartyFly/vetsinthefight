@@ -3,8 +3,18 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
+.container {
+
+}
 .navbar {
   background-color: #1a1a1a;
+}
+.navbar button {
+  padding: 0;
+}
+.navbar .fa.fa-bars {
+  color: #ffd700;
+  font-size: 30px;
 }
 .navbar .navbar-brand {
   color: #ffd700;
@@ -39,7 +49,7 @@ header img {
 }
 
 section {
-  padding: 100px 0;
+  padding: 60px 0;
 }
 
 section h2 {
@@ -61,8 +71,93 @@ section .btn-primary:hover {
   color: #1a1a1a;
   background: #e6c300;
 }
+#about h2 {
+  font-size: 30px;
+}
+#about h2 span {
+  color: #ffd700;
+  text-shadow: 1px 1px #1a1a1a;
+}
+#about p {
+  margin: 0;
+}
+#about .row {
+  margin: 10px 0;
+}
+#about .row.middle {
+  margin: 0 auto;
+  width: 100%;
+}
+#about .col.about-info {
+  background: #f8f9fa;
+  border-radius: 10px;
+  margin: 0 10px;
+  padding: 15px;
+  text-align: center;
+}
+#about .lead span {
+  color: #002080;
+  font-weight: 600;
+}
+#about .red-rule,
+#about .blue-rule {
+  background: #B52627;
+  border-radius: 50%;
+  height: 5px;
+  margin: 10px auto;
+  width: 50%;
+}
+#about .blue-rule {
+  background: #002080;
+}
+#about .excerpt-row {
+  margin: 20px 0;
+}
+#about .tri-img {
+
+}
+#about .tri-img img {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  width: 300px;
+}
+#about .excerpt {
+  border: 1px solid #000;
+  margin: 0 auto 15px;
+  padding: 20px;
+  text-align: center;
+  width: 70%;
+}
+#about .dark-banner {
+  background: #1a1a1a;
+  border-radius: 30px;
+  color: #fff;
+  display: block;
+  margin: 25px auto;
+}
+#about .dark-banner p {
+  padding: 15px;
+  font-size: 18px;
+  text-align: center;
+}
+#about .tri-img p span,
+#about .dark-banner p span {
+  color: #ffd700;
+}
+#about .tri-img p {
+  padding: 0 20px;
+  text-align: center;
+}
+#about .tri-img p span {
+  text-shadow: 1px 1px #1a1a1a;
+}
 #vpac h2 {
   padding: 0 50px 10px;
+}
+#vpac .row span {
+  color: #ffd700;
+  text-shadow: 1px 1px #1a1a1a;
 }
 #vpac .top-img {
   float: right;
@@ -74,15 +169,18 @@ section .btn-primary:hover {
   margin-left: 25px;
   width: 50%;
 }
-#vpac .top-p {
-  margin-bottom: 50px;
+#vpac .speaker-list .speaker-wrap {
+  background: #fff;
+  border-radius: 10px;
+  margin: 10px auto;
+  padding: 10px;
+  width: 70%;
 }
-#about .excerpt {
-  border: 1px solid #000;
-  margin: 0 auto 15px;
-  padding: 20px;
-  width: 90%;
+#vpac .speaker-list .speaker-wrap .name {
+  font-size: 20px;
+  font-weight: 600;
 }
+
 
 footer {
   background: #1a1a1a;
@@ -90,9 +188,19 @@ footer {
 footer p span {
   color: #ffd700;
 }
-@media screen and (max-width: 1000px) {
-  #vpac h2 {
-    padding: 0;
+@media screen and (max-width: 991px) {
+  #about .row {
+    margin: 0;
+  }
+  #about .row .about-info {
+    flex-basis: auto;
+    margin-bottom: 10px;
+  }
+  #about .row.tri-img img {
+    margin-top: 10px;
+  }
+  #about .row.dark-banner {
+    margin-bottom: 10px;
   }
 }
 @media screen and (max-width: 600px) {
